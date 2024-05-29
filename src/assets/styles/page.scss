@@ -1,0 +1,28 @@
+.page {
+  height: 100%;
+  // .page__wrapper
+  &__wrapper {
+    height: 100%;
+  }
+  // .page__head
+  &__head {
+    margin-bottom: 20px;
+    height: 60px;
+  }
+  // .page__left
+  &__left {
+  }
+  // .page__right
+  &__right {
+  }
+  // .page__body
+  &__body {
+    background-color: var(--white);
+    border-radius: var(--box-radius);
+    height: calc(100% - 80px);
+    overflow: auto;
+    &._no-head {
+      height: 100%;
+    }
+  }
+}
